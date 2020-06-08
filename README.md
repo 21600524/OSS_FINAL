@@ -1,5 +1,5 @@
 # OSS_FINAL
-# Piano
+# Piano Playing
 
 Project : Make & publish an open-source (web) service running on my rasbperry pi.
 My project : open - source Piano web service using Apache(or nginx), PHP , MySQL 
