@@ -10,7 +10,8 @@ Goals : Simple piano playing
 
 Contribution : There are many piano applications on the Internet, but there was no way to implement them directly on the website.
                 So, using Raspberry Pi, I created a website where I can practice piano through a web server.  
-                I used html, javascript, and css for this website, so I think anyone can use this code elsewhere, and others can modify the                 code to make a better site.
+                I used html, javascript, and css for this website, so I think anyone can use this code elsewhere, and others can modify                 the code to make a better site.
+        
         
 Code required : 
   1) html file
@@ -18,7 +19,11 @@ Code required :
   3) piano picture
   4) sheet music picture
 
+
+
 Also, there is a Demo video (playing piano).
+
+
 
 
 P.S. When you need to move file to the linux server
