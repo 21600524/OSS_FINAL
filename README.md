@@ -19,3 +19,9 @@ Code required :
   4) sheet music picture
 
 Also, there is a Demo video (playing piano).
+
+
+P.S. When you need to move file to the linux server
+using this comman on cmd (window)
+-> pscp [File path to upload][Server access account]@[server access IP]:[Server directory path to be uploaded]
+-> ex) pscp C:\Users\desktop\OSS\* pi@raspberrypi.local:/var/www/html/OSS
