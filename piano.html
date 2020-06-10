@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Let's play the piano</title>
+		<title>Piano</title>
 		</head>
 	<body>
-		<h1>Let's play the piano</h1>
+		<h1><b>Piano</b></h1>
+		<h2>Play the piano freely or with sheet music</h2>
 		<img style = "display : block" src = "rabbit.jpg" id= "rabbit">
 		<img style = "display: none" src = "apple.jpg" id="apple">
 		<div class= "button">
@@ -12,14 +13,14 @@
 		</div>
 		<img src="piano.jpg" alt="piano" usemap="#piano" width="958" height="478">
 		<map name="piano">
-		 <area shape="circle" coords="57,185,20" onclick="play('doo')">
-		 <area shape="circle" coords="104,185,20" onclick="play('ree')">
-		 <area shape="circle" coords="156,185,20" onclick="play('mii')">
-		 <area shape="circle" coords="201,185,20" onclick="play('faa')">
-		 <area shape="circle" coords="261,185,20" onclick="play('sol')">
-		 <area shape="circle" coords="330,185,20" onclick="play('raa')">
-		 <area shape="circle" coords="388,185,20" onclick="play('sii')">
-		 <area shape="circle" coords="432,185,20" onclick="play('ddo')"
+		 <area shape="circle" coords="57,183,20" onclick="play('doo')">
+		 <area shape="circle" coords="107,183,20" onclick="play('ree')">
+		 <area shape="circle" coords="159,183,20" onclick="play('mii')">
+		 <area shape="circle" coords="203,183,20" onclick="play('faa')">
+		 <area shape="circle" coords="264,183,20" onclick="play('sol')">
+		 <area shape="circle" coords="333,183,20" onclick="play('raa')">
+		 <area shape="circle" coords="391,183,20" onclick="play('sii')">
+		 <area shape="circle" coords="436,183,20" onclick="play('ddo')"
 		 </map>
 		 <audio id='doo' src="sound/1.mp3"></audio>
 		 <audio id='ree' src="sound/2.mp3"></audio>
@@ -64,13 +65,19 @@
 	height : 40% ;
 	}
 	h1 {
-	color : orange ;
+	color : black ;
+	border-bottom : 3px solid black;
 	text-align : center;
 	}
 	div.button {
 	position: absolute ;
-	top : 72% ;
-	left: 49%;
+	top : 76% ;
+	left: 48%;
+	}
+	h2 {
+	color : dimgray ;
+	text-align : center ;
+	font-size : 10px;
 	}
 	</style>
 </html>
