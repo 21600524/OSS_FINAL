@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Let's play the piano</title>
+		</head>
+	<body>
+		<h1>Let's play the piano</h1>
+		<img style = "display : block" src = "rabbit.jpg" id= "rabbit">
+		<img style = "display: none" src = "apple.jpg" id="apple">
+		<div class= "button">
+		<input type = "button" value = "change"onclick = "change()">
+		</div>
+		<img src="piano.jpg" alt="piano" usemap="#piano" width="958" height="478">
+		<map name="piano">
+		 <area shape="circle" coords="57,185,20" onclick="play('doo')">
+		 <area shape="circle" coords="104,185,20" onclick="play('ree')">
+		 <area shape="circle" coords="156,185,20" onclick="play('mii')">
+		 <area shape="circle" coords="201,185,20" onclick="play('faa')">
+		 <area shape="circle" coords="261,185,20" onclick="play('sol')">
+		 <area shape="circle" coords="330,185,20" onclick="play('raa')">
+		 <area shape="circle" coords="388,185,20" onclick="play('sii')">
+		 <area shape="circle" coords="432,185,20" onclick="play('ddo')"
+		 </map>
+		 <audio id='doo' src="sound/1.mp3"></audio>
+		 <audio id='ree' src="sound/2.mp3"></audio>
+		 <audio id='mii' src="sound/3.mp3"></audio>
+		 <audio id='faa' src="sound/4.mp3"></audio>
+		 <audio id='sol' src="sound/5.mp3"></audio>
+		 <audio id='raa' src="sound/6.mp3"></audio>
+		 <audio id='sii' src="sound/7.mp3"></audio>
+		 <audio id='ddo' src="sound/8.mp3"></audio>
+
+		  <script>
+			  var cnt = 1 ;
+			 function play(value){
+			 var audio = document.getElementById(value);
+			if(audio.paused){
+				audio.play();
+			}
+			else {
+			audio.pause();
+			audio.currentTime = 0
+			}
+			 }
+			function change(){
+			if(cnt%2==1){
+			rabbit.style.display ="none";
+			apple.style.display = "block";
+			}
+			else {
+			apple.style.display = "none";
+			rabbit.style.display="block";
+			}
+			cnt++;
+			}
+		</script>
+	</body>
+	<style>
+	img {
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	width : 40% ;
+	height : 40% ;
+	}
+	h1 {
+	color : orange ;
+	text-align : center;
+	}
+	div.button {
+	position: absolute ;
+	top : 72% ;
+	left: 49%;
+	}
+	</style>
+</html>
