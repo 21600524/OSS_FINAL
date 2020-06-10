@@ -1,8 +1,8 @@
 # OSS_FINAL
-# Piano Playing
+# Playing Piano 
 
 Project : Make & publish an open-source (web) service running on my rasbperry pi.
-My project : open - source Piano web service using Apache(or nginx), PHP , MySQL 
+My project : open - source Piano web service
 (source code :  html, javascript) 
 
 Goals : Simple piano playing
@@ -16,4 +16,6 @@ Code required :
   1) html file
   2) piano notes sound (.mp3)
   3) piano picture
+  4) sheet music picture
 
+Also, there is a Demo video (playing piano).
