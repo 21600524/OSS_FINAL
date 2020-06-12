@@ -4,7 +4,7 @@
 Project : Make & publish an open-source (web) service running on my rasbperry pi.
 
 My project : open - source Piano web service
-(source code :  html, javascript) 
+(source code :  html, javascript, css) 
 
 Goals : Simple piano playing
         It is used as a toy piano for young children, and can be used as a piano for adults to perform simple or check piano notes. 
