@@ -13,14 +13,14 @@
 		</div>
 		<img src="piano.jpg" alt="piano" usemap="#piano" width="958" height="478">
 		<map name="piano">
-		 <area shape="circle" coords="57,183,20" onclick="play('doo')">
-		 <area shape="circle" coords="107,183,20" onclick="play('ree')">
-		 <area shape="circle" coords="159,183,20" onclick="play('mii')">
-		 <area shape="circle" coords="203,183,20" onclick="play('faa')">
-		 <area shape="circle" coords="264,183,20" onclick="play('sol')">
-		 <area shape="circle" coords="333,183,20" onclick="play('raa')">
-		 <area shape="circle" coords="391,183,20" onclick="play('sii')">
-		 <area shape="circle" coords="436,183,20" onclick="play('ddo')"
+		 <area shape="circle" coords="57,180,20" onclick="play('doo')">
+		 <area shape="circle" coords="107,180,20" onclick="play('ree')">
+		 <area shape="circle" coords="159,180,20" onclick="play('mii')">
+		 <area shape="circle" coords="206,180,20" onclick="play('faa')">
+		 <area shape="circle" coords="269,180,20" onclick="play('sol')">
+		 <area shape="circle" coords="333,180,20" onclick="play('raa')">
+		 <area shape="circle" coords="391,180,20" onclick="play('sii')">
+		 <area shape="circle" coords="440,180,20" onclick="play('ddo')"
 		 </map>
 		 <audio id='doo' src="sound/1.mp3"></audio>
 		 <audio id='ree' src="sound/2.mp3"></audio>
@@ -30,8 +30,7 @@
 		 <audio id='raa' src="sound/6.mp3"></audio>
 		 <audio id='sii' src="sound/7.mp3"></audio>
 		 <audio id='ddo' src="sound/8.mp3"></audio>
-
-		  <script>
+			 <script>
 			  var cnt = 1 ;
 			 function play(value){
 			 var audio = document.getElementById(value);
@@ -66,12 +65,13 @@
 	}
 	h1 {
 	color : black ;
+	padding : 10px;
 	border-bottom : 3px solid black;
 	text-align : center;
 	}
 	div.button {
 	position: absolute ;
-	top : 76% ;
+	top : 79% ;
 	left: 48%;
 	}
 	h2 {
