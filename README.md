@@ -9,7 +9,7 @@ My project : open - source Piano web service
 Goals : Simple piano playing
         It is used as a toy piano for young children, and can be used as a piano for adults to perform simple or check piano notes. 
 
-Contribution : There are many piano applications on the Internet, but there was no way to implement them directly on the website.
+Contribute : There are many piano applications on the Internet, but there was no way to implement them directly on the website.
                 So, using Raspberry Pi, I created a website where I can practice piano through a web server.  
                 I used html, javascript, and css for this website, so I think anyone can use this code elsewhere, and others can modify                 the code to make a better site.
         
