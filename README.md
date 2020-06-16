@@ -1,33 +1,43 @@
 # OSS_FINAL
 # Playing Piano 
 
-Project : Make & publish an open-source (web) service running on my rasbperry pi.
+# Project 
+: Make & publish an open-source (web) service running on my rasbperry pi.
 
-My project : open - source Piano web service
+# My project
+: open - source Piano web service
 (source code :  html, javascript, css) 
 
-Goals : Simple piano playing
-        It is used as a toy piano for young children, and can be used as a piano for adults to perform simple or check piano notes. 
+# Goals 
+: Simple piano playing
+  It is used as a toy piano for young children, and can be used as a piano for adults to perform simple or check piano notes. 
 
-Contribute : There are many piano applications on the Internet, but there was no way to implement them directly on the website.
-                So, using Raspberry Pi, I created a website where I can practice piano through a web server.  
-                I used html, javascript, and css for this website, so I think anyone can use this code elsewhere, and others can modify                 the code to make a better site.
+# Contribute 
+: There are many piano applications on the Internet, but there was no way to implement them directly on the website.
+  So, using Raspberry Pi, I created a website where I can practice piano through a web server.  
+  I used html, javascript, and css for this website, so I think anyone can use this code elsewhere, and others can modify                 the code to make a better site.
                 
-  Useful : Both the sheet music and the piano are numbered so that even those who are not familiar with the piano can play.
+# Useful
+: Both the sheet music and the piano are numbered so that even those who are not familiar with the piano can play.
+  First piano code using html. There are many c programming pino code on the internet, but using html is not exist.    
         
         
-Code required : 
+# Start with code required : 
   1) html file
   2) piano notes sound (.mp3)
   3) piano picture
   4) sheet music picture
 
+# Reference
+: https://www.w3schools.com
+
+
+Also, there is a Demo video (playing piano).
 ****video link : https://youtu.be/g4OOUIRxDBc 20.06.13 sat pm 1:04****
 
-Reference : https://www.w3schools.com
-Also, there is a Demo video (playing piano).
-
-
+**HANDONG UNIVERSITY
+**21600524 YEJIN LEE
+**21600524@handong.edu
 
 
 P.S. When you need to move file to the linux server
